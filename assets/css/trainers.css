@@ -27,18 +27,18 @@
     max-width: calc(33.333% - 2rem);
     min-width: 250px;
 
-    background: #ffffff;
+    background: #fff5e9;
     border-radius: 12px;
     overflow: hidden;
 
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 15px rgba(106, 83, 83, 0.15);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Hover */
 .trainer-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 12px 25px rgba(56, 86, 53, 0.25);
 }
 
 
@@ -79,20 +79,20 @@
     border-radius: 20px;
     font-size: 0.8rem;
     font-weight: bold;
-    color: #fff;
+    color: #ecd0b5;
 }
 
 
 .status-active {
-    background-color: #2ecc71;
+    background-color: #806aa8;
 }
 
 .status-retired {
-    background-color: #95a5a6;
+    background-color: #5a8c90;
 }
 
 .status-legendary {
-    background: linear-gradient(45deg, #f39c12, #e74c3c);
+    background: linear-gradient(45deg, #796442, #a73326);
 }
 
 @media screen and (max-width: 768px) {
